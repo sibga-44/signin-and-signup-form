@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="contain">
+        <div class="content">
+            <div class="form">
+                <p class="SIGN UP"><b>SIGN UP</b></p>
+                <div>
+                 <input type="text" placeholder="First name" id="firstname" />
+                <div id="firstnameError" class="error-message"></div>
+            </div>
+            <div>
+                <input type="text" placeholder="Last name" id="lastname" />
+                <div id="lastnameError" class="error-message"></div>
+            </div>
+            <div>
+                <input type="text" placeholder="Enter Email" id="email" />
+                <div id="emailError" class="error-message"></div>
+            </div>
+            <div>
+                <input type="text" placeholder="Enter Phone Number" id="phonenumber" />
+                <div id="phonenumberError" class="error-message"></div>
+            </div>
+            <div>
+                <input type="password" placeholder="Enter Password" id="password" />
+                <div id="passwordError" class="error-message"></div>
+            </div>
+            <div>
+                <input type="password" placeholder="Confirm Password" id="confirmpassword" />
+                <div id="confirmpasswordError" class="error-message"></div>
+            </div>
+
+            <p>Already have an account? <a href="signin.html">LOGIN</a></p>
+                <button onclick="signup()">SIGN UP</button>
+            </div>
+        </div>
+    </div>
+    <script src="myscript2.js"></script>
+</body>
+</html>
